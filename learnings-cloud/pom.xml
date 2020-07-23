@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.learnings</groupId>
+    <artifactId>learnings-parent</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+  </parent>
+  <groupId>com.learnings.cloud</groupId>
+  <artifactId>learnings-cloud</artifactId>
+  <version>1.0.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <name>learnings-cloud</name>
+  <url>http://maven.apache.org</url>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+  <modules>
+    <module>learnings-cloud-function</module>
+    <module>learnings-cloud-gateway</module>
+    <module>learnings-cloud-netflix</module>
+    <module>learnings-cloud-security</module>
+    <module>learnings-cloud-sleuth</module>
+    <module>learnings-cloud-stream</module>
+    <module>learnings-cloud-zookeeper</module>
+    <module>learnings-cloud-circuit-breaker</module>
+    <module>learnings-cloud-kubernetes</module>
+    <module>learnings-cloud-dataflow</module>
+    <module>learnings-cloud-task</module>
+  </modules>
+</project>
