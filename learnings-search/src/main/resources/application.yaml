@@ -1,0 +1,13 @@
+server:
+   port: 9211
+logging:
+   level:
+      org.springframework.data.elasticsearch.client.WIRE: TRACE
+      org.springframework.web: TRACE
+spring:
+   data:
+      elasticsearch:
+         cluster-nodes: localhost:9300
+         cluster-name: elasticsearch
+   main:
+      allow-bean-definition-overriding: true
